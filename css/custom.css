@@ -1,0 +1,80 @@
+header {
+    background: url('../img/banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 500px;
+}
+
+.features-icons {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.features-icons-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #0080ff;
+}
+
+.showcase-img {
+    background-size: cover;
+    min-height: 30rem;
+}
+
+.showcase-text {
+    padding: 8rem;
+}
+
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.testimonials .testimonials-item img {
+    max-width: 12rem;
+    box-shadow: 0 5px 5px #adb5bd;
+}
+
+.call-to-action {
+    background: url("../img/banner.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.testimonials-item ul {
+    margin:0;
+    font-size: 14px;
+    color: rgba(207, 182, 182, 0.7);
+    margin-bottom: 35px;
+}
+
+.testimonials-item ul li{
+    display: inline;
+    background: rgba(204, 204, 204, 0.5);
+    padding: 10px;
+    border-radius: 45%;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+}
+
+.testimonials-item ul li:hover{
+    background: #ccc;
+}
+
+@media screen and (max-width: 360px) {
+    .showcase-text {
+        padding: 4rem;
+    }
+
+    .showcase-img {
+        min-height: 15rem;
+    }
+}
+
